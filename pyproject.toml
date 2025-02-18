@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "math_interpreter"
+version = "0.1.0"
+description = "Math interpreter."
+authors = [
+    { name = "Sizin Adınız", email = "sizin@email.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+math_interpreter = "src.math_interpreter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
