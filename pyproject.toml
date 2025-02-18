@@ -7,7 +7,7 @@ name = "math_interpreter"
 version = "0.1.0"
 description = "Math interpreter."
 authors = [
-    { name = "Sizin Adınız", email = "sizin@email.com" }
+    { name = "Alper Karaca" }
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
