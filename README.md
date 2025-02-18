@@ -87,7 +87,7 @@ Interpreter, AST'yi gezerek matematiksel ifadeyi değerlendirir ve sonucu hesapl
 - `visit`: AST düğümlerini gezerek uygun **visit** metodunu çağırır.
 - `interpret`: AST'yi değerlendirir ve sonucu döndürür.  
 
-# Örnek AST Yapısı
+## Örnek AST Yapısı
 
 `2 + 3 * 4` ifadesi için oluşturulan AST şu şekildedir.
 
@@ -99,13 +99,13 @@ Interpreter, AST'yi gezerek matematiksel ifadeyi değerlendirir ve sonucu hesapl
  3   4
 ```
 
-# Hata Yönetimi
+## Hata Yönetimi
 
 - **Invalid Character**: Lexer, geçersiz karakterlerle karşılaştığında hata fırlatır.
 - **Syntax Error**: Parser, beklenen token'lar bulunmadığında hata fırlatır.
 - **Division by Zero**: Interpreter, sıfıra bölme işlemi tespit ederse hata fırlatır.
 
-# Contribution
+## Contribution
 
 Bu proje açık kaynaklıdır. Katkıda bulunmak için:
 
@@ -115,6 +115,6 @@ Bu proje açık kaynaklıdır. Katkıda bulunmak için:
 4. Branch'inizi pushlayın (`git push origin yeni-ozellik`).
 5. Bir Pull Request oluşturun.
 
-# Lisans
+## Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için **LICENSE** dosyasına bakın.
